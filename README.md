@@ -1,16 +1,25 @@
-# daysuntil
+What's changed:
+
+- add support for both firefox and chrome
+- upgrade to manifest v3
+
+-----------------------------------
+
+# Old Readme
+
+## daysuntil
  Chrome extension that shows number of days left until a certain date (Right next to the URL bar )
 
-# Install
-https://chrome.google.com/webstore/detail/days-until-days-countdown/eddnhnjblfligfijgckclhnkmilmdhij
+## Install
+<del>https://chrome.google.com/webstore/detail/days-until-days-countdown/eddnhnjblfligfijgckclhnkmilmdhij</del>
 
-# Developement
+## Developement
 - Download this repository.
 - Go to `chrome://extensions/`
 - Click on **Load Unpacked**
 - Select the downloaded folder
 
-# Description
+## Description
 Displays the number of days until a specified date right in the toolbar.
 
 It's a countdown for days that is ALWAYS visible right in your Chrome toolbar, next to where you type your URLs.
