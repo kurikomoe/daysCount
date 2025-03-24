@@ -2,7 +2,7 @@
 const isFF = (typeof browser != 'undefined')
 const runtime = isFF ? browser.runtime : chrome.runtime;
 const storage = isFF ? browser.storage : chrome.storage;
-const action = isFF ? browser.action : chrome.browserAction;
+const action = isFF ? browser.action : chrome.action;
 
 // 统一 storage.get 的行为
 function getStorageData(key) {
